@@ -1,0 +1,14 @@
+questions:
+  - "Question 1. What are your skills in Minecraft?"
+  - "Question 2. How long have you been playing Minecraft?"
+  - "Question 3. Why are you interested in joining our Community?"
+  - "Question 4. Do you agree to the /rules (You must read the rules)"
+commandsRanOnAccept:
+  - "luckperms user {player} permission set greylist.accepted"
+  - "luckperms user {player} group set member"
+commandsRanOnDeny:
+  - "mute {player} Application Denied"
+commandsRanOnReset:
+  - "luckperms user {player} permission unset greylist.accepted"
+  - "unmute {player}"
+  - "luckperms user {player} group set default"
